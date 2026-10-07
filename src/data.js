@@ -5,7 +5,6 @@ export const profile = {
   tagline:
     "Web developer with 2+ years of experience in front-end and back-end development, plus hands-on data analysis at Grameenphone. Based in Dhaka.",
   email: "sadathossain388@gmail.com",
-  phone: "+8801794528451",
   location: "Dhaka, Bangladesh",
   links: [
     ["GitHub", "https://github.com/Sadat388"],
