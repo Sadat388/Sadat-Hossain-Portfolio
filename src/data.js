@@ -22,6 +22,18 @@ export const categories = ["All", "Full-stack", "Front-end"];
 // Replace each link with your real Vercel URL. Leave '' to hide the button.
 export const projects = [
   {
+    title: "E-Commerce Website",
+    link: "https://sadat-store.vercel.app/",
+    cat: "Full-stack",
+    color: "#0E8A6A",
+    date: "Nov 2023",
+    tools: ["HTML", "CSS", "NodeJS", "PostgreSQL", "ReactJS"],
+    blurb: "Interactive online shop with a shopping cart.",
+    detail:
+      "Built the shopping website so users can add products smoothly. Implemented a secure checkout process with PostgreSQL integration for order management.",
+  },
+
+  {
     title: "BMI-Calculator",
     link: "https://bmi-calculator-omega-three.vercel.app",
     cat: "Front-end",
@@ -31,17 +43,6 @@ export const projects = [
     blurb: "Website for calculating BMI.",
     detail:
       "Users can input their height and weight to calculate their BMI. The platform provides health insights based on the calculated BMI.",
-  },
-  {
-    title: "E-Commerce Website",
-    link: "",
-    cat: "Full-stack",
-    color: "#0E8A6A",
-    date: "Nov 2023",
-    tools: ["HTML", "CSS", "NodeJS", "MySQL"],
-    blurb: "Interactive online shop with a shopping cart.",
-    detail:
-      "Built the shopping cart so users can add products smoothly. Implemented a secure checkout process with MySQL database integration for order management.",
   },
   {
     title: "Calculator App",
@@ -72,7 +73,7 @@ export const skills = [
     group: "Web",
     items: ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "PHP"],
   },
-  { group: "Databases", items: ["MySQL", "NoSQL"] },
+  { group: "Databases", items: ["MySQL", "NoSQL", "PostgreSQL"] },
   {
     group: "Programming",
     items: ["Python", "Java", "Assembly", "Verilog", "MATLAB"],
