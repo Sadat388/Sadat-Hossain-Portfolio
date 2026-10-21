@@ -3,7 +3,7 @@ export const profile = {
   name: ["Sadat", "Hossain"],
   status: "Open to web developer and data roles",
   tagline:
-    "Web developer with 2+ years of experience in front-end and back-end development, plus hands-on data analysis at Grameenphone. Based in Dhaka.",
+    "Full-stack web developer building responsive, data-driven applications with React, Node.js and SQL. Computer Science graduate with hands-on experience in data analysis and workflow automation. Based in Dhaka.",
   email: "sadathossain388@gmail.com",
   location: "Dhaka, Bangladesh",
   links: [
@@ -13,7 +13,7 @@ export const profile = {
   about: [
     "I build dynamic web applications with HTML, CSS, JavaScript, ReactJS, NodeJS, MySQL and NoSQL, and I care about how they feel to use.",
     "I hold a BSc in Computer Science and Engineering from BRAC University (2020–2024). There I directed event management for the Robotics Club, running workshops and national events.",
-    "Recently I worked on data analysis and automation at Grameenphone Ltd. through Nextern and as a remote data entry specialist for a U.S.-based organisation, [Autism Society ​Habilitation ​Organization](https://asho-ny.org/).",
+    "Recently I worked on data analysis and automation at [Grameenphone Ltd.](https://www.grameenphone.com/about/career/career-opportunities/students?srsltid=AU7gw4XT0QsFOeVpR5K86BnPpKW80WGCo5X3ifaWwGn6EPmwUlQxPJZ6) through Nextern and as a remote data entry specialist for a U.S.-based organisation, [Autism Society ​Habilitation ​Organization](https://asho-ny.org/).",
   ],
 };
 
@@ -34,6 +34,31 @@ export const projects = [
   },
 
   {
+    title: "AI Job Tracker",
+    link: "https://ai-job-tracker-ashy.vercel.app/",
+    github: "", // TODO: add repo link
+    cat: "Front-end",
+    color: "#0F766E",
+    date: "Oct 2026",
+    tools: ["React.js", "Vite", "JavaScript", "Serverless API", "Vercel"], // TODO: confirm React, add the AI provider (OpenAI, Gemini, etc.)
+    blurb: "Job application tracker with AI assistance.",
+    detail:
+      "A web app for keeping track of job applications in one place, with an AI feature powered through a serverless API route so the API key stays off the client. Deployed on Vercel.", // TODO: describe the AI feature (e.g. CV matching, cover letters, job post parsing)
+  },
+  {
+    title: "Expense Tracker",
+    link: "https://expense-tracker-web-nine-psi.vercel.app/",
+    github: "", // TODO: add repo link
+    cat: "Front-end",
+    color: "#4F46E5",
+    date: "Oct 2026",
+    tools: ["React.js", "Vite", "JavaScript", "CSS", "Vercel"], // TODO: confirm React, add chart library / storage
+    blurb: "Web app for tracking personal income and expenses.",
+    detail:
+      "A responsive expense tracking app with a dark interface, built with Vite and deployed on Vercel.", // TODO: add 2 or 3 real features (add/edit/delete, categories, charts, filters, local storage)
+  },
+
+  {
     title: "BMI-Calculator",
     link: "https://bmi-calculator-omega-three.vercel.app",
     cat: "Front-end",
@@ -44,6 +69,7 @@ export const projects = [
     detail:
       "Users can input their height and weight to calculate their BMI. The platform provides health insights based on the calculated BMI.",
   },
+
   {
     title: "Calculator App",
     link: "https://sadat388.github.io/Calculator-App/",
